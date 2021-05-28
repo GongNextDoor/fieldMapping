@@ -29,12 +29,5 @@ module.exports = {
         '@': require('path').join(__dirname, 'src') // 路径别名
       }
     }
-  },
-  css: {
-    loaderOptions: {
-      sass: {
-        prependData: `@import "~@/styles/variables.scss";` // sass全局变量
-      }
-    }
   }
 }
